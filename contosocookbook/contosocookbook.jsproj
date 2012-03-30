@@ -52,6 +52,9 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="contosocookbook_TemporaryKey.pfx" />
+    <Content Include="data\AzureRecipes.txt" />
+    <Content Include="data\license.xml" />
+    <Content Include="data\Recipes.txt" />
     <Content Include="default.html" />
     <Content Include="css\groupDetailPage.css" />
     <Content Include="css\default.css" />

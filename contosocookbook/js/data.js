@@ -18,9 +18,19 @@
     var list = new WinJS.Binding.List();
     var groupedItems = list.createGrouped(groupKeySelector, groupDataSelector);
 	
+    WinJS.xhr({ url: "../data/Recipes.txt" })
+			.then(function (xhr) {
+				var items = JSON.parse(xhr.responseText);
+
+				// Add the items to the WinJS.Binding.List
+				items.forEach(function (item) {
+					list.push(item);
+				});
+		});
+
     WinJS.Namespace.define("data", {
         items: groupedItems,
         groups: groupedItems.groups,
         getItemsFromGroup: getItemsFromGroup
-    });
+    });	
 })();

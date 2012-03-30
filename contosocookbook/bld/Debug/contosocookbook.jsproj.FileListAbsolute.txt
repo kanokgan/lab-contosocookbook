@@ -1,0 +1,13 @@
+C:\repo\handonlaps\contosocookbook\contosocookbook\bin\Debug\resources.pri
+C:\repo\handonlaps\contosocookbook\contosocookbook\bin\Debug\AppxManifest.xml
+C:\repo\handonlaps\contosocookbook\contosocookbook\bin\Debug\contosocookbook.build.appxrecipe
+C:\repo\handonlaps\contosocookbook\contosocookbook\bld\Debug\priconfig.xml
+C:\repo\handonlaps\contosocookbook\contosocookbook\bld\Debug\layout.resfiles
+C:\repo\handonlaps\contosocookbook\contosocookbook\bld\Debug\resources.resfiles
+C:\repo\handonlaps\contosocookbook\contosocookbook\bld\Debug\pri.resfiles
+C:\repo\handonlaps\contosocookbook\contosocookbook\bld\Debug\LanguageQualifiers.txt
+C:\repo\handonlaps\contosocookbook\contosocookbook\bld\Debug\ProjectArchitectures.txt
+C:\repo\handonlaps\contosocookbook\contosocookbook\bld\Debug\priconfig.xml.intermediate
+C:\repo\handonlaps\contosocookbook\contosocookbook\bld\Debug\layout.resfiles.intermediate
+C:\repo\handonlaps\contosocookbook\contosocookbook\bld\Debug\resources.resfiles.intermediate
+C:\repo\handonlaps\contosocookbook\contosocookbook\bld\Debug\pri.resfiles.intermediate
