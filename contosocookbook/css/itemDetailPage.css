@@ -16,6 +16,7 @@
         height: calc(100% - 50px);
         margin-left: 120px;
         width: 480px;
+				display: -ms-grid; 
     }
 
         .itemdetailpage section[role=main] article header .item-title {
@@ -29,7 +30,6 @@
         }
 
         .itemdetailpage section[role=main] article .item-image {
-            height: 240px;
             margin-bottom: 3px;
             width: 460px;
         }
@@ -39,6 +39,33 @@
             margin-right: 20px;
             vertical-align: baseline;
         }
+				.itemdetailpage section[role=main] article .ingredients { 
+						-ms-grid-column: 2; 
+						margin-left: 40px; 
+						width: 360px; 
+				} 
+ 
+				.itemdetailpage section[role=main] article .ingredients .item-ingredients { 
+						margin-top: 20px; 
+				} 
+ 
+				.itemdetailpage section[role=main] article .ingredients .item-ingredients .ingredient { 
+						padding-bottom: 12px; 
+
+						font-size: 20px; 
+				} 
+ 
+				.itemdetailpage section[role=main] article .directions { 
+						-ms-grid-column: 3; 
+						margin-left: 40px; 
+						width: 380px; 
+				} 
+ 
+				.itemdetailpage section[role=main] article .directions .item-directions { 
+						margin-top: 20px; 
+						font-size: 20px; 
+						} 
+
 
 @media screen and (-ms-view-state: snapped) {
     .itemdetailpage section[role=main] article {
